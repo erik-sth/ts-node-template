@@ -1,7 +1,6 @@
-
 # Template Repository
 
-Template Repository for Node.js, TypeScript, Jest, and Express.
+Template Repository for Node.js, TypeScript, Jest, and Supertest.
 
 ## Commands
 
@@ -45,28 +44,14 @@ To run ESLint for TypeScript files, use:
 npm run lint
 ```
 
-## Project Structure
-
--   `src/`: Source code directory
-    -   `server.ts`: Main server file
-    -   ...
-
 ## Dependencies
 
--   `body-parser`: ^1.20.2
--   `cors`: ^2.8.5
--   `dotenv`: ^16.3.1
--   `express`: ^4.18.2
--   `express-rate-limit`: ^7.1.5
--   `mongoose`: ^8.0.3
 -   `supertest`: ^6.3.3
 -   `winston`: ^3.11.0
 
 ## Development Dependencies
 
--   `@types/cors`: ^2.8.17
 -   `@types/eslint`: ^8.44.9
--   `@types/express`: ^4.17.21
 -   `@types/jest`: ^29.5.11
 -   `@types/node`: ^20.10.4
 -   `@types/supertest`: ^2.0.16
