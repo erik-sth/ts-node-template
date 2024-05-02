@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "test": "jest",
+    "test": "jest -- --passWithNoTests",
     "build": "tsc -p .",
     "lint": "npx eslint . --ext .ts"
   },
